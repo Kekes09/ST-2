@@ -15,6 +15,23 @@ TEST(CircleTest, FerenceFromRadius) {
     EXPECT_NEAR(62.8318, c.getFerence(), 0.001);
 }
 
+TEST(CircleTest, AreaFromRadius) {
+    Circle c(10.0);
+    EXPECT_NEAR(314.159, c.getArea(), 0.001);
+}
+
+TEST(CircleTest, SetFerenceUpdatesRadius) {
+    Circle c(1.0);
+    c.setFerence(62.8318);
+    EXPECT_NEAR(10.0, c.getRadius(), 0.001);
+}
+
+TEST(CircleTest, SetFerenceUpdatesArea) {
+    Circle c(1.0);
+    c.setFerence(62.8318);
+    EXPECT_NEAR(314.159, c.getArea(), 0.001);
+}
+
 TEST(CircleTest, SetAreaUpdatesRadius) {
     Circle c(1.0);
     c.setArea(314.159);
@@ -41,6 +58,13 @@ TEST(CircleTest, SmallRadiusTest) {
 TEST(CircleTest, LargeRadiusTest) {
     Circle c(1e6);
     EXPECT_GT(c.getArea(), 1e12);
+}
+
+TEST(CircleTest, ConsistencyTest) {
+    Circle c(15.0);
+    double a1 = c.getArea();
+    c.setArea(a1);
+    EXPECT_NEAR(15.0, c.getRadius(), 0.0001);
 }
 
 TEST(CircleTest, NegativeRadiusTest) {
