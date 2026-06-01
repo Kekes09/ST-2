@@ -1,10 +1,11 @@
 // Copyright 2025 UNN-CS Team
 
+#include <gtest/gtest.h>
 #include "circle.h"
 #include "tasks.h"
 
 #include <cmath>
-#include <gtest/gtest.h>
+
 
 const double EPS = 1e-5;
 constexpr double PI = 3.14159265358979323846;
