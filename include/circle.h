@@ -4,27 +4,27 @@
 #define INCLUDE_CIRCLE_H_
 
 class Circle {
-private:
-    double radius_;
-    double ference_;
-    double area_;
+ private:
+  double radius_;
+  double ference_;
+  double area_;
 
-    static constexpr double PI = 3.14159265358979323846;
+  static constexpr double PI = 3.14159265358979323846;
 
-    void recalcFromRadius();
-    void recalcFromFerence();
-    void recalcFromArea();
+  void recalcFromRadius();
+  void recalcFromFerence();
+  void recalcFromArea();
 
-public:
-    explicit Circle(double radius = 0.0);
+ public:
+  explicit Circle(double radius = 0.0);
 
-    void setRadius(double radius);
-    void setFerence(double ference);
-    void setArea(double area);
+  void setRadius(double radius);
+  void setFerence(double ference);
+  void setArea(double area);
 
-    double getRadius() const;
-    double getFerence() const;
-    double getArea() const;
+  double getRadius() const;
+  double getFerence() const;
+  double getArea() const;
 };
 
-#endif // INCLUDE_CIRCLE_H
+#endif  // INCLUDE_CIRCLE_H_
