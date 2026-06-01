@@ -1,14 +1,14 @@
 // Copyright 2022 UNN-CS
-#ifndef INCLUDE_CIRCLE_H_
-#define INCLUDE_CIRCLE_H_
-#include <cstdint>
+#ifndef CIRCLE_H
+#define CIRCLE_H
+
 class Circle {
 private:
     double radius_;
     double ference_;
     double area_;
 
-    static constexpr double PI = 3.1415926535897;
+    static constexpr double PI = 3.14159265358979323846;
 
     void recalcFromRadius();
     void recalcFromFerence();
@@ -26,4 +26,4 @@ public:
     double getArea() const;
 };
 
-#endif  // INCLUDE_CIRCLE_H_
+#endif // CIRCLE_H
