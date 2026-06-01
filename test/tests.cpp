@@ -142,7 +142,8 @@ TEST(TaskPool, ConcreteCostComponent) {
   constexpr double concrete_price = 1000.0;
   Circle pool(pool_r);
   Circle outer(pool_r + path_w);
-  double expected_concrete = (outer.getArea() - pool.getArea()) * concrete_price;
+  double expected_concrete =
+   (outer.getArea() - pool.getArea()) * concrete_price;
   EXPECT_NEAR(expected_concrete, 21991.0, 1.0);
 }
 
