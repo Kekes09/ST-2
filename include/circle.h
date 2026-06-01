@@ -1,6 +1,6 @@
 // Copyright 2022 UNN-CS
-#ifndef CIRCLE_H
-#define CIRCLE_H
+#ifndef INCLUDE_CIRCLE_H_
+#define INCLUDE_CIRCLE_H_
 
 class Circle {
 private:
@@ -26,4 +26,4 @@ public:
     double getArea() const;
 };
 
-#endif // CIRCLE_H
+#endif // INCLUDE_CIRCLE_H

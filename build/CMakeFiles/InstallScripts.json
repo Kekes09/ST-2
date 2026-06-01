@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/Users/Evgenii/Desktop/ST-2/build/cmake_install.cmake",
-		"C:/Users/Evgenii/Desktop/ST-2/build/src/cmake_install.cmake",
-		"C:/Users/Evgenii/Desktop/ST-2/build/test/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

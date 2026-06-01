@@ -1,8 +1,0 @@
-C:/Users/Evgenii/Desktop/ST-2/build/CMakeFiles/INSTALL.dir
-C:/Users/Evgenii/Desktop/ST-2/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Evgenii/Desktop/ST-2/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/Evgenii/Desktop/ST-2/build/src/CMakeFiles/ST-2.dir
-C:/Users/Evgenii/Desktop/ST-2/build/src/CMakeFiles/ST-2.info.dir
-C:/Users/Evgenii/Desktop/ST-2/build/src/CMakeFiles/INSTALL.dir
-C:/Users/Evgenii/Desktop/ST-2/build/test/CMakeFiles/ST-2.test.dir
-C:/Users/Evgenii/Desktop/ST-2/build/test/CMakeFiles/INSTALL.dir
