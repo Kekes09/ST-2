@@ -2,6 +2,7 @@
 
 #include <cstdint>
 #include "circle.h"
+#include <cmath>
 
 
 Circle::Circle(double radius) : radius_(0.0), ference_(0.0), area_(0.0) {
