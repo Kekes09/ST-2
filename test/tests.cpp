@@ -11,9 +11,9 @@ constexpr double PI = 3.14159265358979323846;
 
 TEST(CircleTest, ct1) {
   Circle c;
-  EXPECT_NEAR(c.getRadius(), 0.5, EPS);
-  EXPECT_NEAR(c.getFerence(), 0.5, EPS);
-  EXPECT_NEAR(c.getArea(), 0.5, EPS);
+  EXPECT_NEAR(c.getRadius(), 0.0, EPS);
+  EXPECT_NEAR(c.getFerence(), 0.0, EPS);
+  EXPECT_NEAR(c.getArea(), 0.0, EPS);
 }
 
 TEST(CircleTest, ct2) {
